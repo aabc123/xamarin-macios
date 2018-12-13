@@ -650,6 +650,7 @@ namespace xharness
 					MainLog.WriteLine ("Disabled 'docs' tests because the Xamarin-specific parts of the build are not enabled.");
 				}
 			}
+			IncludeDocs = true;
 		}
 
 		// Returns true if the value was changed.
